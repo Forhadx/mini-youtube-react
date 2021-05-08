@@ -53,9 +53,6 @@
 
 .stream__video {
   width: 100%;
-  border-bottom: 1px solid gray;
-  margin-bottom: 2rem;
-  padding-bottom: 1rem;
 }
 
 .stream__video--view {
@@ -67,6 +64,9 @@
 
 .stream__video-details {
   text-align: left;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid gray;
 }
 
 .stream__video-details-title {
