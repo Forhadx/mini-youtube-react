@@ -1,0 +1,145 @@
+.main {
+  padding: 1.3rem 5%;
+  box-sizing: border-box;
+}
+
+.search {
+  width: 100%;
+  box-sizing: border-box;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid gray;
+}
+
+.search__form {
+  margin: auto;
+  width: 40%;
+  border: 1px solid gray;
+  background-color: rgb(56, 56, 56);
+  border-color: rgb(56, 56, 56);
+}
+
+.search__form--input {
+  height: 100%;
+  width: 80%;
+  box-sizing: border-box;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: rgb(15, 14, 14);
+  color: white;
+  border: none;
+}
+
+.search__form--input:focus {
+  outline: none;
+}
+
+.search__form--button {
+  width: 20%;
+  height: 100%;
+  font-size: 1rem;
+  background-color: rgb(56, 56, 56);
+  color: gray;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.vides {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.stream__video {
+  width: 100%;
+  border-bottom: 1px solid gray;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+}
+
+.stream__video--view {
+  width: 100%;
+  height: 75vh;
+  box-sizing: border-box;
+  background-color: black;
+}
+
+.stream__video-details {
+  text-align: left;
+}
+
+.stream__video-details-title {
+  font-size: 1.2rem;
+}
+
+.stream__video-details-channel {
+}
+
+.video__list {
+  width: 100%;
+  
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.video__list--item {
+  width: 100%;
+  height: 6rem;
+  margin-bottom: 0.5rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+}
+
+.video__list--item-img {
+  width: 25%;
+  height: 100%;
+  box-sizing: border-box;
+  background-color: rgb(82, 80, 80);
+  object-fit: cover;
+}
+
+.video__list--item-details {
+  width: 60%;
+  margin-left: 0.5rem;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+.video__list--item-details h1 {
+  margin: 0;
+  font-size: 0.8rem;
+  margin-bottom: 0.3rem;
+}
+
+.video__list--item-details p {
+  margin: 0;
+  font-size: 0.8rem;
+  color: gray;
+}
+
+.no-video {
+  margin-top: 5rem;
+  font-size: 3rem;
+  color: white;
+}
+
+@media (min-width: 62rem) {
+  .vides {
+    flex-direction: row;
+  }
+  .stream__video {
+    width: 75%;
+  }
+  .video__list {
+    width: 25%;
+    margin-left: 2rem;
+  }
+  .video__list--item-img {
+    width: 40%;
+  }
+  
+}
