@@ -1,4 +1,4 @@
 # mini-youtube-react
 
 Live Demo:
-https://gallant-nobel-92f398.netlify.app/
+https://youtube-clone-fx.netlify.app/
